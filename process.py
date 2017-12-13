@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 "add 1 to a number"
 
-# copy this script to s3://fh-div-adm-scicomp/dtenenba/batch-demo/process.py
+# copy this script to s3://$BUCKET_NAME/$BATCH_USER/batch-demo/process.py
 # before demoing....
 
 

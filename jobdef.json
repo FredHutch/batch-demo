@@ -1,0 +1,24 @@
+{
+    "jobDefinitionName": "fredhutch-batch-demo",
+    "type": "container",
+    "containerProperties": {
+        "image": "fredhutch/batch-demo",
+        "vcpus": 1,
+        "memory": 128,
+        "jobRoleArn": "arn:aws:iam::064561331775:role/fh-div-adm-scicomp-batchtask",
+        "environment": [
+            {
+                "name": "BATCH_FILE_TYPE",
+                "value": "script"
+            },
+            {
+                "name": "BUCKET_NAME",
+                "value": "fh-div-adm-scicomp"
+            },
+            {
+                "name": "BATCH_USER",
+                "value": "dtenenba"
+            }
+        ]
+    }
+}

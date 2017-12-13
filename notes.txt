@@ -1,4 +1,4 @@
 Set
 
-BATCH_FILE_S3_URL=s3://fh-div-adm-scicomp/dtenenba/batch-demo/doit.sh
+BATCH_FILE_S3_URL=s3://$BUCKET_NAME/$BATCH_USER/batch-demo/doit.sh
 BATCH_FILE_TYPE=script

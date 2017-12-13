@@ -1,0 +1,16 @@
+{
+    "jobName": "REPLACE_WITH_BATCH_USER's test 0",
+    "jobQueue": "mixed",
+    "arrayProperties": {
+        "size": 50
+    },
+    "jobDefinition": "REPLACE-WITH-YOUR-JOB-DEFINITION-NAME:revision",
+    "containerOverrides": {
+        "environment": [
+            {
+                "name": "BATCH_FILE_S3_URL",
+                "value": "s3://REPLACE_ME_WITH_BUCKET_NAME/dtenenba/batch-demo/doit.sh"
+            }
+        ]
+    }
+}
