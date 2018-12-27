@@ -3,7 +3,7 @@ astroid==1.5.3
 awscli==1.14.8
 boto3==1.4.8
 botocore==1.8.12
-certifi==2017.11.5
+certifi==2018.11.29
 chardet==3.0.4
 cloudknot==0.2.2
 cloudpickle==0.5.2
@@ -14,7 +14,7 @@ docker==2.6.1
 docker-pycreds==0.2.1
 docopt==0.6.2
 docutils==0.14
-idna==2.6
+idna==2.7
 ipython==6.2.1
 ipython-genutils==0.2.0
 isort==4.2.15
@@ -35,14 +35,14 @@ Pygments==2.2.0
 pylint==1.7.5
 python-dateutil==2.6.1
 PyYAML==3.12
-requests==2.18.4
+requests==2.20.0
 rsa==3.4.2
 s3transfer==0.1.12
 simplegeneric==0.8.1
 six==1.11.0
 tenacity==4.7.1
 traitlets==4.3.2
-urllib3==1.22
+urllib3==1.23
 wcwidth==0.1.7
 websocket-client==0.44.0
 wrapt==1.10.11
